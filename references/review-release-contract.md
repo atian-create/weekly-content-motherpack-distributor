@@ -20,6 +20,20 @@ For image packages, also check:
 - whether images are final or only prompts
 - whether any HTML screenshot or script rendering is being misrepresented as generated art
 
+For WeChat public-account articles, also check:
+
+- copy-ready HTML is treated as article layout only
+- cover and in-article images exist as separate image files when images are promised
+- the image pack has its own source notes or generation/design boundary
+- HTML screenshots are not used as WeChat images unless the user explicitly requested screenshot-style images
+
+If separate review agents or review threads are available, route text/HTML and images separately:
+
+- text review: public Markdown, copy-ready HTML, title, risky claims, private-boundary checks
+- image review: image pack existence, generation method, visual fit, dimensions, and HTML/script misuse
+
+Release only when the required review sides pass. If an article has approved text but failed or missing images, keep it as `needs images` or `blocked`; do not mark it `ready`.
+
 ## Status Labels
 
 Use simple labels:
