@@ -92,8 +92,12 @@ Check:
 - Is the target reader clear?
 - Are images actually available where images are required?
 - Are image-generation boundaries honest?
+- For WeChat articles, is the HTML only used as copy-ready article layout, not as an image source?
+- If WeChat cover or in-article images are expected, is there a separate reviewed image pack?
 - Are private paths, private thread IDs, internal notes, or credentials removed?
 - Are risky claims removed?
+
+If the workflow uses separate review agents or review threads, send image packages to image review and text/HTML to text review. Release only after the required review sides pass. If a platform item uses HTML screenshots as images without explicit user approval, mark it `blocked` or `failed review`.
 
 ### 6. Deliver
 
@@ -103,7 +107,7 @@ Recommended folders:
 
 - `rednote-graphic-pack/`: images plus caption text in the same folder.
 - `podcast-to-send/`: spoken drafts only.
-- `wechat-image-pack/`: WeChat article cover and in-article images only.
+- `wechat-image-pack/`: WeChat article cover and in-article images only; do not put HTML screenshots here unless explicitly requested and reviewed as screenshots.
 - `release-page.html`: date-by-date publishing dashboard.
 
 ## Image Generation Fallback
