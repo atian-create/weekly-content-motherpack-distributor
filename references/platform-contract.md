@@ -30,6 +30,10 @@ Recommended contents:
 
 Keep WeChat images in a separate article image folder. Do not mix them into the RedNote/Xiaohongshu upload package.
 
+HTML is the article-copy surface, not the image-production surface. Do not export WeChat cover images or in-article images by screenshotting the copy-ready HTML unless the user explicitly asks for screenshot-style images. If images are expected, create or request a separate image pack with cover/in-article files, source notes, and image-generation or design-method boundaries.
+
+If there is no valid image pack, mark the WeChat article as `needs images` instead of pretending the HTML contains the images.
+
 ## Podcast Drafts
 
 Create spoken Markdown drafts from the strongest 1-2 mother topics.
