@@ -1,0 +1,6 @@
+interface:
+  display_name: "Weekly Content Motherpack Distributor"
+  short_description: "Weekly mother topics to platform-ready packs."
+  default_prompt: "Use $weekly-content-motherpack-distributor to turn this week’s conversations into five mother topics and platform-ready content packages."
+policy:
+  allow_implicit_invocation: true
