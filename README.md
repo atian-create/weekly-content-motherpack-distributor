@@ -99,6 +99,10 @@
 
 如果你使用的是国内 Agent 环境，也可以安装灵造的生图 Skill/API，用它来补齐小红书封面、图文页和公众号配图。
 
+特别注意：公众号的 HTML 只是用来复制正文和排版，不等于配图。公众号封面图、正文插图必须作为单独图片文件交付；如果没有独立图片包，就应该标记为「需要补图片」，不能用 HTML 截图或网页排版假装成配图。
+
+如果你的工作流里有审核线程，建议把文字和图片分开审核：文章 Markdown/HTML 走文字审核，封面和插图文件夹走图片审核。两边都通过后，才标记为可以发布。
+
 ## 这个 Skill 不做什么
 
 它不会自动替你发布内容，也不承诺流量、涨粉或成交。它更像一个每周内容操作台：帮你把一周的素材整理出来，选出值得继续放大的母题，再分发成不同平台能用的内容。
@@ -211,6 +215,8 @@ If your Agent does not have image generation:
 - you can pair this Skill with an image-generation Skill.
 
 For Chinese/domestic Agent environments, you can install Lingzao's image-generation Skill/API and use it as the image layer for RedNote/Xiaohongshu covers, graphic-note pages, and WeChat article images.
+
+For WeChat articles, HTML is only the copy-ready article layout. It is not a substitute for cover or in-article images. If images are promised, deliver separate image files and review them separately. If no valid image pack exists, mark the article as `needs images` instead of using HTML screenshots as images.
 
 ## Example Prompts
 
